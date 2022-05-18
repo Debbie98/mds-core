@@ -1,5 +1,11 @@
 # @mds-core/mds-api-helpers
 
+## 0.3.3-hotfix-v13-1.0
+
+### Patch Changes
+
+- @mds-core/mds-db@0.6.29-hotfix-v13-1.0
+
 ## 0.3.2
 
 ### Patch Changes

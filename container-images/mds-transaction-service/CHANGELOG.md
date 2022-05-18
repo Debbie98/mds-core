@@ -1,5 +1,12 @@
 # @container-images/mds-transaction-service
 
+## 0.2.12-hotfix-v13-1.0
+
+### Patch Changes
+
+- Updated dependencies [c474db95]
+  - @mds-core/mds-transaction-service@0.6.37-hotfix-v13-1.0
+
 ## 0.2.11
 
 ### Patch Changes

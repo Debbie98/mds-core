@@ -1,5 +1,12 @@
 # @container-images/mds-policy-service
 
+## 0.2.12-hotfix-v13-1.0
+
+### Patch Changes
+
+- Updated dependencies [c474db95]
+  - @mds-core/mds-policy-service@0.12.11-hotfix-v13-1.0
+
 ## 0.2.11
 
 ### Patch Changes

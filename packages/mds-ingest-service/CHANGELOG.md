@@ -1,5 +1,11 @@
 # @mds-core/mds-ingest-service
 
+## 0.11.3-hotfix-v13-1.0
+
+### Patch Changes
+
+- c474db95: Downgrade typeorm-cursor-pagination to v0.6.1
+
 ## 0.11.2
 
 ### Patch Changes

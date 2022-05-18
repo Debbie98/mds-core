@@ -1,5 +1,13 @@
 # @mds-core/mds-policy-author-api
 
+## 0.8.11-hotfix-v13-1.0
+
+### Patch Changes
+
+- Updated dependencies [c474db95]
+  - @mds-core/mds-policy-service@0.12.11-hotfix-v13-1.0
+  - @mds-core/mds-api-helpers@0.3.3-hotfix-v13-1.0
+
 ## 0.8.10
 
 ### Patch Changes

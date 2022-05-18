@@ -1,5 +1,13 @@
 # @mds-core/mds-compliance-service
 
+## 0.10.43-hotfix-v13-1.0
+
+### Patch Changes
+
+- Updated dependencies [c474db95]
+  - @mds-core/mds-policy-service@0.12.11-hotfix-v13-1.0
+  - @mds-core/mds-db@0.6.29-hotfix-v13-1.0
+
 ## 0.10.42
 
 ### Patch Changes
