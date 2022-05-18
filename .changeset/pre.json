@@ -68,6 +68,7 @@
     "@mds-core/mds-webpack-config": "0.1.15"
   },
   "changesets": [
-    "famous-lions-learn"
+    "famous-lions-learn",
+    "lovely-fans-love"
   ]
 }

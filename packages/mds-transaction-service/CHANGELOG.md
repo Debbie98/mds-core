@@ -1,5 +1,13 @@
 # @mds-core/mds-transaction-service
 
+## 0.6.37-hotfix-v13-1.1
+
+### Patch Changes
+
+- 7cfa46c8: Downgrade typeorm-cursor-pagination fix
+- Updated dependencies [7cfa46c8]
+  - @mds-core/mds-ingest-service@0.11.3-hotfix-v13-1.1
+
 ## 0.6.37-hotfix-v13-1.0
 
 ### Patch Changes

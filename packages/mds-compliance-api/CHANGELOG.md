@@ -1,5 +1,16 @@
 # @mds-core/mds-compliance-api
 
+## 0.4.48-hotfix-v13-1.1
+
+### Patch Changes
+
+- Updated dependencies [7cfa46c8]
+  - @mds-core/mds-policy-service@0.12.11-hotfix-v13-1.1
+  - @mds-core/mds-db@0.6.29-hotfix-v13-1.1
+  - @mds-core/mds-test-data@0.4.40-hotfix-v13-1.1
+  - @mds-core/mds-compliance-service@0.10.43-hotfix-v13-1.1
+  - @mds-core/mds-api-helpers@0.3.3-hotfix-v13-1.1
+
 ## 0.4.48-hotfix-v13-1.0
 
 ### Patch Changes

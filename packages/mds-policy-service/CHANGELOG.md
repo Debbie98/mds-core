@@ -1,5 +1,12 @@
 # @mds-core/mds-policy-service
 
+## 0.12.11-hotfix-v13-1.1
+
+### Patch Changes
+
+- 7cfa46c8: Downgrade typeorm-cursor-pagination fix
+  - @mds-core/mds-geography-service@0.10.34-hotfix-v13-1.1
+
 ## 0.12.11-hotfix-v13-1.0
 
 ### Patch Changes

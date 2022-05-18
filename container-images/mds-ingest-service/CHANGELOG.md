@@ -1,5 +1,12 @@
 # @container-images/mds-ingest-service
 
+## 0.2.12-hotfix-v13-1.1
+
+### Patch Changes
+
+- Updated dependencies [7cfa46c8]
+  - @mds-core/mds-ingest-service@0.11.3-hotfix-v13-1.1
+
 ## 0.2.12-hotfix-v13-1.0
 
 ### Patch Changes
