@@ -33,7 +33,7 @@
     "query-string": "7.1.1"
   },
   "devDependencies": {
-    "@mds-core/mds-test-data": "0.4.40-hotfix-v13-1.1",
+    "@mds-core/mds-test-data": "0.4.40-v13-hotfix-compliance.2",
     "http-status-codes": "2.2.0"
   }
 }

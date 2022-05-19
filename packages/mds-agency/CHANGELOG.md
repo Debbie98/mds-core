@@ -1,5 +1,15 @@
 # @mds-core/mds-agency
 
+## 0.5.24-v13-hotfix-compliance.2
+
+### Patch Changes
+
+- Updated dependencies [5598c9d5]
+- Updated dependencies [221b7ed4]
+  - @mds-core/mds-ingest-service@0.11.3-v13-hotfix-compliance.2
+  - @mds-core/mds-db@0.6.29-v13-hotfix-compliance.2
+  - @mds-core/mds-api-helpers@0.3.3-v13-hotfix-compliance.2
+
 ## 0.5.24-hotfix-v13-1.1
 
 ### Patch Changes

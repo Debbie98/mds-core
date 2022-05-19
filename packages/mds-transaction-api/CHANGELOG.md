@@ -1,5 +1,16 @@
 # @mds-core/mds-transaction-api
 
+## 0.2.46-v13-hotfix-compliance.2
+
+### Patch Changes
+
+- 5598c9d5: Downgrade typeorm-cursor-pagination to v0.6.1
+- 221b7ed4: Downgrade typeorm-cursor-pagination fix
+- Updated dependencies [5598c9d5]
+- Updated dependencies [221b7ed4]
+  - @mds-core/mds-transaction-service@0.6.37-v13-hotfix-compliance.2
+  - @mds-core/mds-api-helpers@0.3.3-v13-hotfix-compliance.2
+
 ## 0.2.46-hotfix-v13-1.1
 
 ### Patch Changes

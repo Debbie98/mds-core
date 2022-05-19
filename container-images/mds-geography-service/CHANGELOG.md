@@ -1,5 +1,11 @@
 # @container-images/mds-geography-service
 
+## 0.2.12-v13-hotfix-compliance.2
+
+### Patch Changes
+
+- @mds-core/mds-geography-service@0.10.34-v13-hotfix-compliance.2
+
 ## 0.2.12-hotfix-v13-1.1
 
 ### Patch Changes

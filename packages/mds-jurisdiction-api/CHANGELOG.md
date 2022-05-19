@@ -1,5 +1,11 @@
 # @mds-core/mds-jurisdiction-api
 
+## 0.1.83-v13-hotfix-compliance.2
+
+### Patch Changes
+
+- @mds-core/mds-api-helpers@0.3.3-v13-hotfix-compliance.2
+
 ## 0.1.83-hotfix-v13-1.1
 
 ### Patch Changes

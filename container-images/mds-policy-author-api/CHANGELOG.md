@@ -1,5 +1,11 @@
 # @container-images/mds-policy-author-api
 
+## 0.3.12-v13-hotfix-compliance.2
+
+### Patch Changes
+
+- @mds-core/mds-policy-author-api@0.8.11-v13-hotfix-compliance.2
+
 ## 0.3.12-hotfix-v13-1.1
 
 ### Patch Changes
