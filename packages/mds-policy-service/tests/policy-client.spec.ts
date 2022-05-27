@@ -59,8 +59,33 @@ describe('spot check unit test policy functions with SimplePolicy', () => {
       })
     })
 
-    it('can CRUD a SimplePolicy', async () => {
-      const simplePolicy = PolicyFactory()
+    it.only('can CRUD a SimplePolicy', async () => {
+      //      const simplePolicy = PolicyFactory()
+      const simplePolicy = {
+        name: 'aname',
+        description: 'aname',
+        provider_ids: [],
+        start_date: 1653597698391,
+        end_date: null,
+        rules: [
+          {
+            accessibility_options: null,
+            maximum: 0,
+            modality: 'micromobility',
+            rate_amount: null,
+            rate_recurrence: null,
+            name: 'No Parking Zones',
+            rule_type: 'count',
+            rule_units: 'devices',
+            states: { available: [], non_operational: [], reserved: [], unknown: [] },
+            value_url: null,
+            vehicle_types: ['scooter', 'moped'],
+            propulsion_types: [],
+            transaction_types: null,
+            service_types: null
+          }
+        ]
+      }
       await PolicyServiceClient.writePolicy(simplePolicy)
       await writePublishedGeography(GeographyFactory({ geography_id: simplePolicy.rules[0]?.geographies[0] }))
       const policy = await PolicyServiceClient.readPolicy(simplePolicy.policy_id)
