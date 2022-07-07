@@ -145,6 +145,28 @@ describe('spot check unit test policy functions with SimplePolicy', () => {
       expect(start_date - (published_date as number)).toBeGreaterThanOrEqual(TWENTY_MINUTES)
     })
 
+    it('throws if no geographies are present in a PolicyIntent', async () => {
+      const draft: NoParkingIntentDraft = {
+        intent_type: 'no_parking',
+        rule_fields: {
+          geographies: [],
+          days: null,
+          start_time: null,
+          end_time: null
+        },
+        policy_fields: {
+          name: 'aname',
+          description: 'aname',
+          provider_ids: [TEST_PROVIDER_ID1],
+          start_date: now(),
+          end_date: null
+        }
+      }
+      await expect(PolicyServiceClient.writePolicyIntentToPolicy(draft)).rejects.toMatchObject({
+        type: 'ValidationError'
+      })
+    })
+
     it('can CRUD a SimplePolicy', async () => {
       const simplePolicy = PolicyFactory()
       await PolicyServiceClient.writePolicy(simplePolicy)

@@ -1,4 +1,4 @@
-import { isDefined, minutes, now, uuid } from '@mds-core/mds-utils'
+import { isDefined, minutes, now, uuid, ValidationError } from '@mds-core/mds-utils'
 import type { PolicyDomainModel } from '../@types'
 import type {
   BaseIntentPolicyUserFields,
@@ -31,6 +31,10 @@ export function translateIntentToPolicy<
     // Adding 1000 as a fudge factor to ensure that the start_date is
     // at least 20 minutes in the future.
     draft.policy_fields.start_date = now() + TWENTY_MINUTES + POLICY_START_DATE_FUDGE_FACTOR
+  }
+
+  if (!draft.rule_fields.geographies || draft.rule_fields.geographies.length < 1) {
+    throw new ValidationError('At least one geography is required!')
   }
   return {
     policy_id: uuid(),
