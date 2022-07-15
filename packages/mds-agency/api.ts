@@ -46,23 +46,24 @@ function api(app: express.Express): express.Express {
   app.use(async (req: AgencyApiRequest, res: AgencyApiResponse, next) => {
     try {
       // verify presence of provider_id
-      if (!req.path.includes('/health')) {
-        if (res.locals.claims) {
-          const { provider_id } = res.locals.claims
+      //if (!req.path.includes('/health')) {
+        //if (res.locals.claims) {
+          //const { provider_id } = res.locals.claims
 
-          if (!isUUID(provider_id)) {
-            AgencyLogger.warn('invalid provider_id is not a UUID', { provider_id, originalUrl: req.originalUrl })
-            return res.status(400).send({
-              error: 'authentication_error',
-              error_description: `invalid provider_id ${provider_id} is not a UUID`
-            })
-          }
+        //  if (!isUUID(provider_id)) {
+         //   AgencyLogger.warn('invalid provider_id is not a UUID', { provider_id, originalUrl: req.originalUrl })
+          //  return res.status(400).send({
+         //     error: 'authentication_error',
+         //     error_description: `invalid provider_id ${provider_id} is not a UUID`
+         //   })
+         // }
 
           // stash provider_id
-          res.locals.provider_id = provider_id
-        } else {
-          return res.status(401).send({ error: 'authentication_error', error_description: 'Unauthorized' })
-        }
+          //res.locals.provider_id = provider_id
+        //} else {
+         // return res.status(401).send({ error: 'authentication_error', error_description: 'Unauthorized' })
+        //}
+        print("Hi no more authorization")
       }
     } catch (error) {
       /* istanbul ignore next */
