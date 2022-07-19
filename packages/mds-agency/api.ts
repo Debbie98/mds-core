@@ -63,8 +63,12 @@ function api(app: express.Express): express.Express {
         //} else {
          // return res.status(401).send({ error: 'authentication_error', error_description: 'Unauthorized' })
         //}
-        print("Hi no more authorization")
-      }
+        if (1==1) {
+            console.log("True is true")
+        }
+        console.log("Hi no more authorization")
+        //return res.status(200).send(AgencyServerError)
+      
     } catch (error) {
       /* istanbul ignore next */
       AgencyLogger.error('request claims parsing fail:', { originalUrl: req.originalUrl, error })
